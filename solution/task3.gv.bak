@@ -1,0 +1,10 @@
+digraph G {
+
+  start -> 0[label="a, b"];
+  0 -> 0[label="c"];
+  0 -> end[label="d"];
+
+  0 [shape=circle]
+  start [shape=circle];
+  end [shape=doublecircle];
+}

@@ -1,0 +1,28 @@
+\documentclass{article}
+\usepackage{titlesec}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage{mathtext}
+\usepackage[T1,T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}
+\usepackage[12pt]{extsizes} % \large
+
+\titleformat*{\section}{\Large\bfseries}
+
+\begin{document}
+\section{Решение квадратного уравнения}
+\emph{Задача: }решить уравнение \(2x^2 + 5x - 12 = 0\) 
+
+\emph{Решение.} Это квадратное уравнение, общий вид которого:
+\[ax^2 + bx + c = 0\]
+В нашем случае \(a = 2\), \(b = 5\), \(c = -12\).
+
+Сначала необходимо вычислить дискриминант уравнения:
+\[ D = b^2 - 4ac = (5)^2 - 4\cdot2\cdot(-12) = 121 \]
+Так как дискриминант  является положительным (\(D > 0 \)), это уравнение имеет два корня, вычисляемые по формуле:
+\[ x_{1,2}=\frac{-b\pm\sqrt{D}}{2a}=\frac{-5\pm11}{4} \]
+Таким образом, \( x_{1} = \frac{-16}{4} = -4 \), \( x_{2} = \frac{6}{4} = \frac{3}{2} \).
+
+\emph{Ответ: }\( x_{1} = -4 \), \( x_{2} = \frac{3}{2} \).
+\end{document}
