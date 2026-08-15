@@ -1,0 +1,12 @@
+schema: "classroom50/repo-config/v1"
+classroom: "mpt"
+assignment: "markup-basics"
+owner:
+  username: "aleksiwithlove"
+  id: 11133202
+  accepted_at: "2026-08-15T06:47:09Z"
+source:
+  owner: "nsu-syspro"
+  owner_id: 115493553
+  repo: "mpt-markup-basics"
+  branch: "main"
